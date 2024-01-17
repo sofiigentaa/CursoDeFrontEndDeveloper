@@ -1,0 +1,35 @@
+.listas .lista{
+    text-decoration: underline;
+}
+
+.todo .lista{
+    list-style: decimal;
+}
+
+.dias .lista{
+    list-style: none;
+}
+
+/*combinador de hijos directos */
+.listas > .lista{
+    list-style-type: upper-roman;
+    
+}
+
+.dias > .lista{
+    color: orangered;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*hermano adyacente
+.subtitulo + .parrafo{
+    background-color: yellow;
+    
+}
+
+hermanos generales*/
+.subtitulo ~ .parrafo{
+    background-color: yellow;
+}
+

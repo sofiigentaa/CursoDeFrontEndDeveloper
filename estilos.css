@@ -1,0 +1,42 @@
+/* Selector de tipo */
+body {
+    font-family: 'Arial';
+}
+h2 {
+    color: red;
+    font-size: 40px;
+}
+
+li {
+    color: slateblue;
+    font-size: 20px;
+}
+
+/* Selector de clase */
+.peliculas {
+    color: crimson;
+}
+
+.series {
+    font-size: 40px;
+
+}
+
+/*se le puede poner la segunda palabra*/
+.favoritas{ 
+    font-weight: bold;
+    color: rebeccapurple;
+}
+
+/*selector de ID*/
+
+#temporadas {
+    color: seagreen;
+    font-size: 10px;
+}
+
+#spidermanNoWayHome{
+    font-size: 25px;
+    color: tomato;
+    text-decoration: underline;
+}
